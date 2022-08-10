@@ -32,7 +32,7 @@ const GeneralInfo = () => {
   return (
     <div>
       <h1>General Information</h1>
-      <form action="" onSubmit={handleSubmit}>
+      <form action="" onSubmit={handleSubmit} className="form-container">
         <label htmlFor="">Name</label>
         <input type="text" value={name} onChange={nameChange} />
         <label htmlFor="">Email</label>
@@ -44,7 +44,11 @@ const GeneralInfo = () => {
           Submit
         </button>
       </form>
-      {generalInfo}
+      <div>
+        <p>Name: {generalInfo[0]}</p>
+        <p>Email: {generalInfo[1]}</p>
+        <p>Phone Number: {generalInfo[2]}</p>
+      </div>
     </div>
   );
 };

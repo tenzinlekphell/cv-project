@@ -4,13 +4,13 @@ const EducationalInfo = () => {
   return (
     <div>
       <h1>Educational Experience</h1>
-      <form action="">
+      <form action="" className="form-container">
         <label htmlFor="">School Name</label>
         <input type="text" />
         <label htmlFor="">Title of study</label>
         <input type="text" />
         <label htmlFor="">Date of study</label>
-        <input type="text" />
+        <input type="date" />
         <button>Edit</button>
         <button>Submit</button>
       </form>
