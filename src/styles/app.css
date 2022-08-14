@@ -5,3 +5,25 @@
   width: 100%;
   align-content: center;
 }
+
+/* .cv-container {
+  display: flex;
+} */
+
+.final-cv {
+  width: 100%;
+}
+
+.cv-header {
+  text-align: center;
+}
+
+.general-info {
+  text-align: center;
+}
+
+.cv-header.education,
+.cv-header.work {
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
